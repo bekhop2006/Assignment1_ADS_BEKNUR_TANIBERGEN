@@ -1,0 +1,33 @@
+
+Functions
+
+1. Minimum of an Array
+Returns the smallest element in the array.
+
+2. Average of an Array
+Calculates and returns the average value of all elements in the array.
+
+3. Prime Number
+Checks whether the given number is prime.
+Returns `true` if it is prime, otherwise `false`.
+
+4. Factorial of n
+Computes and returns the factorial of the provided number `n`.
+
+5. n-th Fibonacci Element
+Returns the n-th element of the Fibonacci series.
+
+6. Power
+Computes and returns `a` to the power of `n`.
+
+7. Reverse Sequence
+Outputs the elements of the provided sequence in reverse order.
+
+8. Is All Digits?
+Determines whether all characters in the given string are digits.
+
+9. Binomial Coefficient
+Computes and returns the binomial coefficient `C(n, k)`.
+
+10. GCD (a, b)
+Computes and returns the greatest common divisor (GCD) of `a` and `b`.
