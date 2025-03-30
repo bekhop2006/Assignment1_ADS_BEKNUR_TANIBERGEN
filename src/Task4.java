@@ -21,6 +21,15 @@ public class Task4 {
         double duration = (endTime - startTime) / 1000000.0;
         System.out.printf("Время выполнения: %.4f миллисекунд\n", duration);
     }
+    /*
+     * This method calculates the factorial of a given number using recursion.
+     * Time complexity: O(n), where n is the number for which the factorial is being calculated.
+     * The algorithm recursively calls itself to multiply the number by the factorial of n-1.
+     * The base case is when n is 0 or 1, returning 1.
+     *
+     * @param n The number to calculate the factorial for
+     * @return The factorial of n
+     */
 
     public static int Factorial(int n) {
         if (n == 0 || n == 1) {

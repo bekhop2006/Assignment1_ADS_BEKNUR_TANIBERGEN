@@ -18,6 +18,15 @@ public class Task5 {
         double duration = (endTime - startTime) / 1000000.0;
         System.out.printf("Время выполнения: %.4f миллисекунд\n", duration);
     }
+    /*
+     * This method calculates the nth Fibonacci number using recursion.
+     * Time complexity: O(2^n), due to overlapping subproblems in recursion.
+     * The algorithm recursively calculates Fibonacci numbers, making repeated calls.
+     * It can be optimized with memoization.
+     *
+     * @param n The position of the Fibonacci number in the sequence
+     * @return The nth Fibonacci number
+     */
 
     public static int Fib(int n) {
         if (n == 0 || n == 1) {

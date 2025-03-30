@@ -25,6 +25,15 @@ public class Task1 {
         double duration = (endTime - startTime) / 1000.0;
         System.out.printf("Время выполнения: %.4f секунд\n", duration);
     }
+    /*
+     * This method finds the minimum element in the array
+     * using an iterative approach.
+     * Time complexity: O(n), where n is the size of the array.
+     * The algorithm iterates over all elements in the array to find the minimum.
+     *
+     * @param arr The array to search through
+     * @return The smallest element in the array
+     */
 
     public static int Minimum(int[] arr) {
         int min = arr[0];

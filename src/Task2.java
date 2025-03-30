@@ -17,6 +17,14 @@ public class Task2 {
         double duration = (endTime-startTime)/1000000;
         System.out.println(duration);
     }
+    /*
+     * This method calculates the average of all elements in the array.
+     * Time complexity: O(n), where n is the size of the array.
+     * The algorithm sums all the elements and then divides by the array length to find the average.
+     *
+     * @param arr The array of elements
+     * @return The average of the elements in the array
+     */
 
 
     public static double Avg(int[] arr){

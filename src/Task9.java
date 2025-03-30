@@ -20,6 +20,15 @@ public class Task9 {
         double duration = (endTime - startTime) / 1000000.0;
         System.out.printf("Время выполнения: %.4f миллисекунд\n", duration);
     }
+    /*
+     * This method calculates the binomial coefficient C(n, k) using recursion with memoization.
+     * Time complexity: O(n * k), where n and k are the parameters for the binomial coefficient.
+     * Memoization avoids recomputing the same values repeatedly, improving efficiency.
+     *
+     * @param n The total number of elements (bottom of the binomial coefficient)
+     * @param k The number of elements to choose (top of the binomial coefficient)
+     * @return The binomial coefficient C(n, k)
+     */
 
     public static int BinomialCef(int n, int k) {
         if (k == 0 || k == n) return 1;
